@@ -34,7 +34,7 @@ public class CompraTest extends BaseTest {
 		
 		// Cadastra o Cliente //
 		summaryPage.clicarBotaoCheckout();
-		siginPage.setEmail("niltinho"+Generator.numeroRandomico().nextInt(99)+"@teste.com");
+		siginPage.setEmail("niltinhoo"+Generator.numeroRandomico().nextInt(99)+"@teste.com");
 		siginPage.clicarBotaoCriarConta();
 		
 		siginPage.setSexoMasculino();
@@ -49,7 +49,7 @@ public class CompraTest extends BaseTest {
 		siginPage.setCep("00000");
 		siginPage.setPais("United States");
 		siginPage.setCelular("551199999-9999");
-		siginPage.setEmailAlternativo("niltinho"+Generator.numeroRandomico().nextInt(99)+"@teste2.com");
+		siginPage.setEmailAlternativo("niltinhoo"+Generator.numeroRandomico().nextInt(99)+"@teste2.com");
 		siginPage.setSenha("1312" + Generator.numeroRandomico().nextInt(100));
 		
 		// Valida o endereço do cliente //

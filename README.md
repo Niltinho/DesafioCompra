@@ -14,6 +14,10 @@ Obs:
      As classes pages extendem a classe BasePage onde contém toda a lógica de interação dos elementos na página Web, exemplo: escrever nos campos, clicar nos botões, selecionar combos, obter os textos para validação etc.
      A classe test extende a classe BaseTest onde contém o screenchot ao final de cada execução do teste.
 
+Obs: 
+     Usar o chromedriver versão 80. Configurado no PATCH na variáveis de ambiente do Windows. Se optar por outro navegador é só configurar na variáveis de ambiente e na classe Propriedades, alterar para o navegador desejado, FIREFOX ou IE.
+
+
 Execução:
 
  - Compilar com JUnit as classes CompraTest ou SuiteTeste para execução do teste.

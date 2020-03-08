@@ -11,7 +11,7 @@ Configuração:
      - Suites - Contém a suíte que ordena a execução das classes de teste.
 
 Obs:
-     As classes pages extendem a classe BasePage onde contém toda a lógica de interação dos elementos na página Web, exemplo: escrever nos campos, clicar no botões, selecionar combos, obter os textos para validação etc.
+     As classes pages extendem a classe BasePage onde contém toda a lógica de interação dos elementos na página Web, exemplo: escrever nos campos, clicar nos botões, selecionar combos, obter os textos para validação etc.
      A classe test extende a classe BaseTest onde contém o screenchot ao final de cada execução do teste.
 
 Execução:

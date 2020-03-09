@@ -21,3 +21,4 @@ Obs:
 Execução:
 
  - Compilar com JUnit as classes CompraTest ou SuiteTeste para execução do teste.
+ - Ao final do teste, a evidência (screenshot) é gerado na pasta target/print.
